@@ -10,6 +10,15 @@ namespace Git41
     {
         static void Main(string[] args)
         {
+
+            char again = 'д';
+            while (again == 'д')
+            {
+                double a;
+                double b;
+                double equally;
+                char oper;
+            }
         }
     }
 }
