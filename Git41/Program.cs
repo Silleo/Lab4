@@ -20,6 +20,7 @@ namespace Git41
                 char oper;
 
 
+
                 Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
 
@@ -30,6 +31,13 @@ namespace Git41
 
                 Console.WriteLine("Введите второе число:");
                 b = Convert.ToDouble(Console.ReadLine());
+
+
+                if (oper == '+')
+                {
+                    equally = a + b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
 
             }
         }
