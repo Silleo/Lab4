@@ -23,6 +23,7 @@ namespace Git41
 
 
 
+
                 Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
 
@@ -54,6 +55,19 @@ namespace Git41
                     equally = a * b;
                     Console.WriteLine("Ответ: " + equally);
                 }
+
+
+                else if (oper == '/')
+                {
+                    equally = a / b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
+                else
+                {
+                    Console.WriteLine("Неизвестный оператор.");
+                }
+                Console.WriteLine("Вы хотите продолжить работу с калькулятором? (д/н)");
+                again = Convert.ToChar(Console.ReadLine());
 
             }
         }
