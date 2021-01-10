@@ -22,6 +22,7 @@ namespace Git41
 
 
 
+
                 Console.WriteLine("Введите первое число:");
                 a = Convert.ToDouble(Console.ReadLine());
 
@@ -44,6 +45,13 @@ namespace Git41
                 else if (oper == '-')
                 {
                     equally = a - b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
+
+
+                else if (oper == '*')
+                {
+                    equally = a * b;
                     Console.WriteLine("Ответ: " + equally);
                 }
 
