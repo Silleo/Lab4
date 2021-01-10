@@ -10,7 +10,10 @@ namespace Git41
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
+=======
+>>>>>>> makeA
             char again = 'д';
             while (again == 'д')
             {
@@ -18,6 +21,13 @@ namespace Git41
                 double b;
                 double equally;
                 char oper;
+<<<<<<< HEAD
+=======
+
+                Console.WriteLine("Введите первое число:");
+                a = Convert.ToDouble(Console.ReadLine());
+
+>>>>>>> makeA
             }
         }
     }
