@@ -18,6 +18,12 @@ namespace Git41
                 double b;
                 double equally;
                 char oper;
+
+                else if (oper == '*')
+                {
+                    equally = a * b;
+                    Console.WriteLine("Ответ: " + equally);
+                }
             }
         }
     }
